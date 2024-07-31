@@ -10,4 +10,14 @@ public class FizzBuzz {
             return String.valueOf(number);
         }
     }
+
+    public static void main(String[] args) {
+        FizzBuzz f= new FizzBuzz();
+        String res= f.play(3);
+        System.out.println(res);
+        System.out.println(f.play(3));
+        System.out.println(f.play(5));
+        System.out.println(f.play(4));
+    }
 }
+

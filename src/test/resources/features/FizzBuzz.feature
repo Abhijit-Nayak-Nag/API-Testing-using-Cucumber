@@ -7,5 +7,5 @@ Feature: Play FizzBuzz
 
   Scenario: Play FizzBuzz to get Buzz
     Given Create a FizzBuzz game play
-    When I play with number 5
-    Then The result is Buzz
+    When I play with the number 5
+    Then The result is "Buzz"
